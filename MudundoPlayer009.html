@@ -1,0 +1,105 @@
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="009.css">
+
+
+    <title>Document</title>
+</head>
+
+<body background="white">
+
+    <secton class="main">
+        <div class="container box">
+            <div class="music">
+
+                <!-- music player -->
+                <div class="music-player">
+                    <!-- music header -->
+                    <div class="header">
+                        <i class="fas fa-music"></i>
+                        <h2>Mudundo Player</h2>
+                        <i class="fas fa-bars"></i>
+                    </div>
+                    <!-- song details -->
+                    <div class="details">
+                        <img src="./audio/ba.PNG" alt="">
+                        <p class="title">Nkunda</p>
+                        <p class="artist">Nzela37</p>
+                    </div>
+                    <div class="controls">
+                        <div class="song-timer">
+                            <span class="current-time">00:12</span>
+
+                            <span class="current-time">04:12</span>
+                        </div>
+                        <!-- song duration -->
+                        <div class="duration">
+                            <input type="range" class="duration-slider" min="0" max="100" value="0">
+                        </div>
+                        <!-- button play, prev and next -->
+                        <div class="buttons">
+                            <button class="prev">
+                                <i class="fas fa-step-backward"></i>
+                            </button>
+                            <button class="play">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <button class="next">
+                                <i class="fas fa-step-forward"></i>
+                            </button>
+
+
+                        </div>
+                        <button class="play-all">
+                            Play all <i class="fas fa-step-backward"></i>
+                        </button>
+                        <!-- auto play -->
+                        <div class="volume">
+                            <p id="show-volume">50</p>
+                            <i class="fas fa-volume-up" id="volume-icon"></i>
+                            <input type="range" id="volume" min="0" max="100" value="50">
+                        </div>
+
+                    </div>
+                </div>
+                <!-- playlist -->
+                <div class="music-playelist">
+                    <!-- music header -->
+                    <div class="header playlist-header">
+                        <i class="fas fa-music"></i>
+                        <h2>MudundoList</h2>
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <!-- play list div -->
+                    <div class="playlist-div">
+                        <div class="playlist">
+                            <span class="song-index">1</span>
+                            <p class="single-song">Nkunda --Nzela37</p>
+                        </div>
+                        <div class="playlist">
+                            <span class="song-index">2</span>
+                            <p class="single-song">Inkuru k'umuziki --Nzela37</p>
+                        </div>
+                        <div class="playlist">
+                            <span class="song-index">3</span>
+                            <p class="single-song">Revolution --Nzela37</p>
+                        </div>
+                        <div class="playlist">
+                            <span class="song-index">4</span>
+                            <p class="single-song">GangBoi --Nzela37</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </secton>
+
+</body>
+
+</html>
