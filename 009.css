@@ -22,7 +22,7 @@ body {
     width: 25rem;
     border-radius: 5px;
     padding: 1rem;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .header {
